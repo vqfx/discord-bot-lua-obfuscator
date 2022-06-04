@@ -7,12 +7,12 @@ from os import system
 import subprocess
 import shutil
 
-token = "yourtoken"
-channel_id = 0000000000000
+token = "OTgyNzMxMDcxNTQyMTUzMzg4.G1ZUcX.52ylw0B_z6lKSzbkRYhxjZrgpJLu2EkIt9GAZA"
+channel_id = 982734838891175936
 
 file_path = os.path.abspath(os.path.dirname(__file__))
 
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="-")
 bot.remove_command("help")
 
 def obfuscation(path, author):
